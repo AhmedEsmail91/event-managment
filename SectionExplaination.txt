@@ -1,0 +1,9 @@
+**-_API (Application Programming Interface)_-**
+-	Is a set of rules or protocols that allows different software applications to communicate.
+-	REST API -> Representational State Transfer API
+-	REST is an architectural style for designing network applications (Using HTTP Protocol [GET, POST DELETE, PUT]) Sending and Receiving data in JSON Format.
+****************************************************************************
+Making a Controller in API is Different special in the Resource Controllers:
+in this case of manipulating with API Displaying form and edit, create forms not provided and not needed in API Application.
+Command :
+ php artisan make:controller Api/controller-name –api  the controller must prefixed with api cause of some cases like the middleware groups and to be known that it can carry their entites.
