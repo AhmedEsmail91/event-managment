@@ -1,9 +1,4 @@
-**Seeding the Dta for REST API**
-in the seeders we made some logic to make 200 users owning 200 events and make more users attending those events.
-though adding the relation attendees which carries the user_id and the event_id to represents the users that attented to 
-which event and that's many to many relation 
-which the events can be attended by many users and the users can attend many events.
-
-so for that we made special seeders for the events and the attendees we made a seeder to the event which  is called `EventSeeder` and its functionality is:
-making events owned by some users.
-and then make a Attend events which randomly takes ther users and making them attend randomly from 1 to 3 events for each user.
+**Storing Data and Validation**
+objective:
+1- CRUD on Events Relation.
+Using Postman as a requester.
